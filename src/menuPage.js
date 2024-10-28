@@ -3,6 +3,12 @@
 export default function menuPage() {
   
     const menuContainer = document.createElement('div');
+          menuContainer.classList.add('menu-container');
+          
+    const title = document.createElement('h1');
+          title.innerText=`Our Menu`
+          menuContainer.appendChild(title);
+          
     const pizza = document.createElement('p');
           menuContainer.appendChild(pizza);
           pizza.innerText=' Pizza Margherita VO – San Marzano tomato, fior di latte, fresh basil 25'
