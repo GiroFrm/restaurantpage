@@ -1,6 +1,7 @@
 import homePage from "./homePage";
 import aboutPage from "./aboutPage";
 import contactPage from "./contactPage";
+import menuPage from "./menuPage";
 
 import "./style.css";
 
@@ -22,6 +23,12 @@ const bodyContainer  = document.getElementById('content');
          bntContact.addEventListener('click', ()=>{
             bodyContainer.innerHTML = "";
             bodyContainer.appendChild(contactPage())
+         })
+
+   const bntMenu = document.querySelector('#menu-btn');
+         bntMenu.addEventListener('click', ()=>{
+            bodyContainer.innerHTML = "";
+            bodyContainer.appendChild(menuPage())
          })
   
   
