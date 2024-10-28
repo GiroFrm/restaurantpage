@@ -13,9 +13,13 @@ export default function homePage() {
            title.innerText="Best Pizza in town"
           
      const description = document.createElement('p');
-          description.innerText=`Welcome!
-        Criniti's serves the best-woodfired pizza, ribs, pasta, seafood, 
-        grilled fish, bruschetta, risotto, and more for lunch and dinner.`
+          description.innerText=`Welcome to Criniti’s – the leading restaurant chain serving the best of Italian 
+          cuisine with a contemporary Australian twist. Our menu features mouth-watering wood-fired pizzas,
+           pasta, seafood, grilled fish, bruschetta, risotto, ribs, and more. With multiple locations 
+           across the country, including Carlton, Southbank, Perth, Castle Hill, 
+           Parramatta (next to Bay Vista), Brighton Le Sand, Wetherill Park,
+           and 5 more locations to come this year, 
+           we offer a unique dining experience at each of our locations.`
     
      const hero_img = document.createElement('img');
         hero_img.classList.add("hero-img");
