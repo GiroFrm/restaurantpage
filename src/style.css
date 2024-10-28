@@ -35,6 +35,7 @@
   /* 8. Improve line wrapping */
   p {
     text-wrap: pretty;
+    line-height: 1.4;
   }
   h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
@@ -108,5 +109,8 @@ button {
 .about-content {
     max-width: 50%;
     
+}
 
+.menu-container>* {
+  margin-bottom: 1rem;
 }
