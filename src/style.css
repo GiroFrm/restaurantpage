@@ -47,8 +47,12 @@
     isolation: isolate;
   }
 
+
+  :root{
+    font-family: "Playwrite GB S", cursive;
+  }
   body {
-  
+    font-size: 1.125rem;
   }
   
   #content {
@@ -76,12 +80,23 @@
    padding-inline: 2rem;
 }
 
+.primary-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  justify-content: end;
+}
+
 .hero-img {
     max-width: 50%;
 }
 
 button {
     cursor: pointer;
+    border:none;
+    border-radius: 100vw;
+    padding: 0.5em 1em;
 }
 
 
