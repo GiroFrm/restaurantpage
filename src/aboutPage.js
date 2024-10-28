@@ -7,6 +7,7 @@ export default function aboutPage() {
   const title = document.createElement('h1');
         title.innerText="Welcome To Criniti's";
   const description = document.createElement('p');
+        description.classList.add('description-about')
         description.innerText=`Traditional Italian meets contemporary dining at Criniti's, 
         a multi-award winner of 'Australia's Favourite Italian'. Criniti's was originally 
         established in 2003 in Parramatta, within Sydney's west by Criniti Family, 
