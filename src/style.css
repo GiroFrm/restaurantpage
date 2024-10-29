@@ -105,10 +105,8 @@ button {
   max-width: 40rem;
 }
 
-
 .about-content {
-    max-width: 50%;
-    
+    max-width: 50%;   
 }
 
 .menu-container>* {
