@@ -100,6 +100,11 @@ button {
     padding: 0.5em 1em;
 }
 
+button:hover {
+  background-color: red;
+  color : white;
+}
+
 
 .article {
   max-width: 40rem;
